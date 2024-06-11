@@ -5,7 +5,7 @@ public class triangologenerico implements figurageometrica{
     private float lato2;
     private float lato3;
 
-
+    @Override
     public float area() {
         return 0;
     }
@@ -25,4 +25,12 @@ public class triangologenerico implements figurageometrica{
         throw new UnsupportedOperationException("Unimplemented method 'perimetro'");
     }
     
+
+    public static void main(String[] args) {
+        triangologenerico t = new triangologenerico();
+        System.out.println(t.area());
+        int elemento = 1419;
+        System.out.println(t.area(elemento));
+        System.out.println(t.area("Pippo"));
+    }
 }

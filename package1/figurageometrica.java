@@ -13,4 +13,8 @@ public interface figurageometrica {
      */
     float perimetro();
 
+    default float cippolo(){
+        return area()+perimetro();
+    }
+
 }

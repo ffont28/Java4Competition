@@ -21,6 +21,10 @@ public class triangologenerico implements figurageometrica {
         return l2;
     }
 
+    public int getlato3(){
+        return l3;
+    }
+
 
     @Override
     public float area() {
@@ -41,9 +45,8 @@ public class triangologenerico implements figurageometrica {
         Objects.requireNonNull(obj, "Non puoi passare un oggetto nullo da confrontare");
         if (!(obj instanceof triangologenerico)) return false;
         triangologenerico temp = (triangologenerico) obj;
-
-
-        return super.equals(obj);
+        if (l1==temp.getlato1() && l2==temp.getlato2() && l3==temp.getlato3()) return true;
+        else return false;
     }
 
     @Override
