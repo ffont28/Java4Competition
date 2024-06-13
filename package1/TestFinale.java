@@ -4,14 +4,14 @@ import java.util.List;
 
 public class TestFinale {
     public static void main(String[] args) {
-        triangologenerico t1 = new triangologenerico(3,4,5);
+        Triangologenerico t1 = new Triangologenerico(3,4,5);
 
          System.out.println(t1);
          System.out.println(t1.area());
          System.out.println(t1.perimetro());
 
 
-        /*
+        
         figurageometrica f = new quadrilaterogenerico(4,5);
         figurageometrica g = new quadrilaterogenerico(10, 2);
         System.out.println("INFORMAZIONI DI F");
@@ -24,11 +24,10 @@ public class TestFinale {
         System.out.println("area = " + g.area());
         System.out.println("perimetro = " + g.perimetro());
 
-        quadrilaterogenerico q = new quadrilaterogenerico();
+        //quadrilaterogenerico q = new quadrilaterogenerico();
 
-        List<figurageometrica> lista = new ArrayList<figurageometrica>();
+        List<Figurageometrica> lista = new ArrayList<Figurageometrica>();
 
-        */
-
+        
     }
 }

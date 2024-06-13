@@ -1,15 +1,15 @@
 package package2;
 
-import package1.figurageometrica;
-import package1.triangoloequilatero;
-import package1.triangologenerico;
+import package1.Figurageometrica;
+import package1.Triangoloequilatero;
+import package1.Triangologenerico;
 
 public class test2 {
     public static void main(String[] args) {
-        triangologenerico f = new triangologenerico(3, 4, 5);
+        Triangologenerico f = new Triangologenerico(3, 4, 5);
         
-        triangoloequilatero luzzi = new triangoloequilatero(3);
-        figurageometrica fontana = new triangologenerico(3, 3, 3);
+        Triangoloequilatero luzzi = new Triangoloequilatero(3);
+        Figurageometrica fontana = new Triangologenerico(3, 3, 3);
         
         System.out.println(luzzi.equals(fontana));
 

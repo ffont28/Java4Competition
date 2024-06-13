@@ -1,12 +1,12 @@
 package package1;
 import java.util.Objects;
 
-public class triangologenerico implements figurageometrica {
+public class Triangologenerico implements Figurageometrica {
     protected int l1;
      int l2;
     public int l3;
 
-    public triangologenerico(int lato1, int lato2, int lato3){
+    public Triangologenerico(int lato1, int lato2, int lato3){
         l1 = lato1;
         l2 = lato2;
         l3 = lato3;
@@ -43,8 +43,8 @@ public class triangologenerico implements figurageometrica {
     @Override
     public boolean equals(Object obj) {
         Objects.requireNonNull(obj, "Non puoi passare un oggetto nullo da confrontare");
-        if (!(obj instanceof triangologenerico)) return false;
-        triangologenerico temp = (triangologenerico) obj;
+        if (!(obj instanceof Triangologenerico)) return false;
+        Triangologenerico temp = (Triangologenerico) obj;
         if (l1==temp.getlato1() && l2==temp.getlato2() && l3==temp.getlato3()) return true;
         else return false;
     }

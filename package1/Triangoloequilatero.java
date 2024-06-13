@@ -1,10 +1,10 @@
 package package1;
 
-public class triangoloequilatero extends triangologenerico {
+public class Triangoloequilatero extends Triangologenerico {
 
     
 
-    public triangoloequilatero(int lato1) {
+    public Triangoloequilatero(int lato1) {
         super(lato1, lato1, lato1);
     }
     

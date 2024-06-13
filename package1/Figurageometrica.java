@@ -1,5 +1,5 @@
 package package1;
-public interface figurageometrica {
+public interface Figurageometrica {
 
     /**
      * Metodo che restituisce l'area della figura geometrica

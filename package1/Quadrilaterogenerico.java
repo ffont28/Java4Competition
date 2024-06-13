@@ -1,14 +1,14 @@
 package package1;
-public class quadrilaterogenerico implements figurageometrica {
-    private float l1;
-    private float l2;
+public abstract class Quadrilaterogenerico implements Figurageometrica {
+    protected float l1;
+    protected float l2;
 
 
-    public quadrilaterogenerico(){
+    public Quadrilaterogenerico(){
         
     }
 
-    public quadrilaterogenerico(float lato1, float lato2) {
+    public Quadrilaterogenerico(float lato1, float lato2) {
         l1 = lato1;
         l2 = lato2;
 
